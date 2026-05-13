@@ -1,0 +1,32 @@
+# VM / disk files
+*.vmdk
+*.vdi
+*.qcow2
+*.img
+*.ova
+*.iso
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# GNS3 runtime files
+gns3/projects/*/project-files/
+
+# Docker volumes
+docker/volumes/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
